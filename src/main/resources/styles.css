@@ -1,0 +1,23 @@
+.root {
+    -fx-font-family: 'Arial';
+    -fx-padding: 10;
+    -fx-background-color: #f0f0f0;
+    -fx-background-image: url("background.jpg");
+}
+
+.label {
+    -fx-text-fill: #333;
+}
+
+.text-field {
+    -fx-background-color: #fff;
+    -fx-border-color: #ccc;
+    -fx-padding: 5;
+}
+
+.button {
+    -fx-background-color: #0078D7;
+    -fx-text-fill: #fff;
+    -fx-padding: 10 20;
+    -fx-border-radius: 5;
+}
