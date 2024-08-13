@@ -14,6 +14,8 @@ public class DivideAiApp extends Application {
         MainScene mainScene = new MainScene();
         Scene scene = new Scene(mainScene.getGridPane(), 400, 300);
 
+        scene.getStylesheets().add(getClass().getResource("/styles.css").toExternalForm());
+
         primaryStage.setScene(scene);
         primaryStage.show();
     }

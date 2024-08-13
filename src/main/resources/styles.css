@@ -1,8 +1,11 @@
 .root {
-    -fx-font-family: 'Arial';
-    -fx-padding: 10;
-    -fx-background-color: #f0f0f0;
-    -fx-background-image: url("background.jpg");
+    .root {
+        -fx-background-image: url("file:/C:/Users/GTH/Desktop/App_Divide_Ai/divideai/src/main/resources/background.jpg");
+        -fx-background-size: cover;
+        -fx-background-position: center center;
+        -fx-background-repeat: no-repeat;
+    }
+
 }
 
 .label {
